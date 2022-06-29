@@ -25,3 +25,30 @@ programa {
     escreva ("os vencedores na tela!")
   }
 }
+
+
+programa
+{
+inclua biblioteca Util --> u
+inteiro numero[5]
+inteiro i
+inteiro inicial, final, alea
+
+	
+	funcao inicio()
+	{
+	inicial = 1
+	final = 50
+
+	escreva("Números sorteados \n")
+
+	para (i = 0; i <= 4; i++) {
+		alea = u.sorteia(inicial, final)
+		numero[i] = alea
+
+		escreva(alea, " ")
+		
+	}
+		
+	}
+}
