@@ -52,3 +52,31 @@ inteiro inicial, final, alea
 		
 	}
 }
+
+programa
+{ 
+	
+inteiro vet[10]
+	inteiro i
+	
+
+	
+	funcao inicio()
+	{
+	
+		para(i = 0; i <  10; i++) {
+			escreva("Digite os seus números: ")
+			leia(vet[i])
+	
+		
+		
+			}
+		
+
+		para (i = 10; i>= 0; i--) {
+			escreva(i, " ")
+		}
+			
+	}
+}
+
