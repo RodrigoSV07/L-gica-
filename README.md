@@ -80,3 +80,56 @@ inteiro vet[10]
 	}
 }
 
+
+
+
+
+
+
+programa
+{
+ inteiro alunos[10]
+  inteiro mat, pos, cont
+  caracter controle = 's'
+	
+	funcao inicio()
+	{
+		para(pos = 0; pos < 10; pos++) {
+			enquanto(verdadeiro) {
+			escreva("Digite a matricula: ")
+			leia(mat)
+              
+						
+			//Verificar se a matricula ja existe
+			para(cont = 0; cont < 10; cont++)
+				se(mat == alunos[cont]) {
+					escreva("Valor ja eiste!! digite outro")
+					controle = 'n'
+				}
+			
+
+			//Verifica se número ou intervalo é valido
+		se ((mat < 100) ou (mat > 200)) {
+			escreva("Valor invalido")
+			controle = 'n'
+	}
+
+		// Se matricula é valida , efetua-la
+		se (controle != 'n') {
+			alunos[pos] = mat
+			pare
+		}
+		//libera o cadastro de dados do vetor 
+		controle = 's'
+			}
+		}
+		//Ordenar valores na tela e mostra=lo
+	
+		
+		
+		
+	
+	
+	}
+}
+
