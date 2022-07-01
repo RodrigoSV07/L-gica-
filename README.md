@@ -133,3 +133,29 @@ programa
 	}
 }
 
+
+
+
+
+
+programa
+{
+ inteiro num1[5]
+  inteiro num2[5]
+  inteiro i
+	
+	funcao inicio()
+	{
+		escreva("Digite o número que você deseja multiplicar: \n")
+		para (i = 0; i<= 4; i++) {
+		escreva("Digite o número: ")
+		leia(num1[i])
+		num2[i] = num1[i]* 3
+	}
+	     para (i = 0; i<= 4; i++){
+		escreva("\nOs Valores são: \n" +num1[i] , " e ", + num2[i] )
+	     }
+	   }
+		
+}
+
